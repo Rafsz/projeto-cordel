@@ -87,15 +87,17 @@ section.imagem > p {
 
 section#img01 {
     background-image: url(../imagens/background003.jpg);
-    background-position: right center;
+    background-position: right bottom;
 }
 
 section#img02 {
     background-image: url(../imagens/background005.jpg);
+	background-position: left bottom;
 }
 
 section#img03 {
-    background-image: url(../imagens/background008.jpg);
+    background-image: url(../imagens/background009.jpg);
+	background-position: right center;
 }
 
 footer {
