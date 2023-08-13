@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:wght@300;400;700&family=Sriracha&display=swap');
+
+  :root {
+    --fonte1: Verdana, geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;  /* pro tamanho da letra acompanha a largura da tela */
+}
+
+header > p {
+    padding-bottom: 50px;;
+}
+
+a {
+    color: white;
+    text-decoration: none;  /* pra não ficar sublinhado sempre */
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline; /* fica sublinhado só qdo passa o mouse por cima */
+}
+
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /* espaçamento duplo entre as linhas, pra facilitar a leitura */
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: lightgrey;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkgreen;
+    color: azure;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486), inset -6px -6px 13px 0px rgba(0, 0, 0, 0.486);
+    background-size: cover;
+    background-attachment: fixed; /* efeito parallax */
+}
+
+section.imagem > p {
+    display: inline-block;  /* pra caixa se adaptar ao tamanho do conteúdo */
+    padding: 5px;
+    /* o ultimo valor da bckgrnd color é ferente a transparencia: maior é menos transparente */
+    background-color: rgba(0, 0, 0, 0.707);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background003.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagens/background005.jpg);
+}
+
+section#img03 {
+    background-image: url(../imagens/background008.jpg);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: var(--fonte2);
+    font-size: 2vw;
+}
+
+/* fim */
