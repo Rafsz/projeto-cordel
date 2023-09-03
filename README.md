@@ -6,3 +6,6 @@ i) foram usadas outras imagens com direitos autorais livres, obtidas na internet
 que é a realidade normalmente retratada na Literatura de Cordel.
 ii) incluídos mais links e uma 3a imagem de fundo.
 
+Link da página rodando:
+https://rafsz.github.io/projeto-cordel/
+
